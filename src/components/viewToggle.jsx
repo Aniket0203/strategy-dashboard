@@ -18,9 +18,10 @@
 
 
 function viewToggle({ activeView, setActiveView }) {
-  console.log("activeView toggle", activeView);
+  // console.log("activeView toggle", activeView);
   const views = ["Bullish", "Bearish", "RangeBound", "Volatile"];
   return (
+    <>
     <div className="toggle-group">
       {views.map((view) => (
         <button
@@ -33,6 +34,7 @@ function viewToggle({ activeView, setActiveView }) {
         </button>
       ))}
     </div>
+    </>
   );
 }
 

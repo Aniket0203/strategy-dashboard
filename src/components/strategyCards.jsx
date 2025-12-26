@@ -22,10 +22,9 @@
 //   );
 // }
 
-import React from "react";
 
 function strategyCards({ strategies,selectedDate }) {
-  console.log("stratgies", strategies);
+  // console.log("stratgies", strategies);
   if (strategies.length === 0) {
     return <p className="empty   ">No strategies available for<br/><span className="empty-date">{selectedDate}</span> </p>
   }
@@ -36,6 +35,7 @@ function strategyCards({ strategies,selectedDate }) {
   }, {});
 
   return (
+    <>
     <div className="card-container">
       {Object.entries(strategiesCount).map(([name, count]) => (
         <div className="card" key={name}>
@@ -45,6 +45,7 @@ function strategyCards({ strategies,selectedDate }) {
         </div>
       ))}
     </div>
+    </>
   );
 }
 
