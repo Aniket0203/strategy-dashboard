@@ -23,7 +23,7 @@
 // }
 
 
-function strategyCards({ strategies,selectedDate }) {
+function StrategyCards({ strategies,selectedDate }) {
   // console.log("stratgies", strategies);
   if (strategies.length === 0) {
     return <p className="empty   ">No strategies available for<br/><span className="empty-date">{selectedDate}</span> </p>
@@ -49,4 +49,4 @@ function strategyCards({ strategies,selectedDate }) {
   );
 }
 
-export default strategyCards;
+export default StrategyCards;

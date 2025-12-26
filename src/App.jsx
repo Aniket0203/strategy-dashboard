@@ -2,9 +2,11 @@
 
 import { useState } from "react";
 import { dateArray, strategyArray } from "./components/Data/data.jsx";
-import ViewToggle from "./components/viewToggle.jsx";
-import DateDropdown from "./components/dateDropdown.jsx";
-import StrategyCards from "./components/strategyCards.jsx";
+import DateDropdown from "./components/DateDropdown.jsx";
+import StrategyCards from "./components/StrategyCards.jsx";
+import ViewToggle from "./components/ViewToggle.jsx";
+
+
 
 function App() {
   const [activeView, setActiveView] = useState("Bullish");
