@@ -1,10 +1,8 @@
-
-
 import { useState } from "react";
-import { dateArray, strategyArray } from "./components/Data/data.jsx";
-import DateDropdown from "./components/DateDropdown.jsx";
-import StrategyCards from "./components/StrategyCards.jsx";
-import ViewToggle from "./components/ViewToggle.jsx";
+import { dateArray, strategyArray } from "./Components/Data/Data.jsx";
+import DateDropdown from "./Components/DateDropdown.jsx";
+import StrategyCards from "./Components/StrategyCards.jsx";
+import ViewToggle from "./Components/ViewToggle.jsx";
 
 
 
